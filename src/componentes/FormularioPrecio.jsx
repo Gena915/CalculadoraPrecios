@@ -40,7 +40,7 @@ function FormularioPrecio() {
     return (
         <form
             onSubmit={manejarEnvio}
-            className='max-w-md mx-auto bg-white border-1 p-6 rounded-xl shadow-md space-y-4'
+            className='min-w-md bg-white border-1 p-6 rounded-xl shadow-md space-y-4 mb-4'
         >
             {/* Campo: materia prima */}
             <div>
